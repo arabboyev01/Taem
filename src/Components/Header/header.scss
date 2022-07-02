@@ -1,0 +1,107 @@
+#header {
+  width: 100%;
+  height: 100vh;
+  background: url(../img//background.png);
+  background-position: center center;
+  background-size: cover;
+  .header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .sub-header {
+      padding-top: 126px;
+      h4 {
+        color: #757575;
+        font-weight: 900;
+        font-size: 17px;
+        line-height: 25px;
+      }
+    }
+    .title {
+      padding-top: 15px;
+      h1 {
+        color: #fff;
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 80px;
+      }
+    }
+    .desc {
+      padding-top: 88px;
+      p {
+        color: white;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 17px;
+      }
+    }
+    .buttons {
+      padding-top: 21px;
+      button {
+        background: #ffff;
+        border: none;
+        padding: 21px 60px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22.5px;
+        border-radius: 3px;
+        transition: 0.7s ease;
+        &:hover {
+          background: #000;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 430px) {
+  #header {
+    .header-wrapper {
+      .sub-header {
+        padding-top: 106px;
+        h4 {
+          color: #757575;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 22px;
+        }
+      }
+      .title {
+        h1 {
+          color: #fff;
+          font-size: 30px;
+          font-weight: 500;
+          line-height: 48px;
+        }
+      }
+      .desc {
+        padding-top: 30px;
+        p {
+          color: white;
+          font-weight: 300;
+          line-height: 20px;
+          font-size: 15px;
+          padding: 0 20px;
+        }
+      }
+      .buttons {
+        padding-top: 21px;
+        button {
+          background: #ffff;
+          border: none;
+          padding: 21px 60px;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 22.5px;
+          border-radius: 3px;
+          transition: 0.7s ease;
+          &:hover {
+            background: #000;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
